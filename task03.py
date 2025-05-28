@@ -1,3 +1,5 @@
-gmail = input("Gmail Kiriting: ")
-a = "@gmail.com"
-print(gmail == a)
+pochta = input("Gmail Kiriting: ")
+
+gmial_index = pochta[-10:]
+
+print(gmial_index == "@gmail.com")
